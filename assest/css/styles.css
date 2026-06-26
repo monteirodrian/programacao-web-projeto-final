@@ -575,6 +575,7 @@ footer {
     .footer-grid {
         grid-template-columns: 1fr;
         gap: 32px;
+        justify-items: start;
     }
     .footer-col:first-child { grid-column: auto; }
 }
