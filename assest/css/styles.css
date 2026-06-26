@@ -470,6 +470,7 @@ footer {
     .footer-grid {
         grid-template-columns: 1fr 1fr;
         gap: 36px;
+        justify-items: start;
     }
     .footer-col:first-child {
         grid-column: 1 / -1;
